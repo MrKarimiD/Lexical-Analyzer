@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1158</width>
+    <height>542</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Lexical Analyzer</string>
+  </property>
+  <widget class="QLabel" name="address_label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Address of Your Code :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="path_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>174</x>
+     <y>8</y>
+     <width>471</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>7</pointsize>
+    </font>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="open_toolButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>9</y>
+     <width>27</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="source_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>361</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="source_label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Source Code :</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>40</y>
+     <width>1151</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>373</x>
+     <y>50</y>
+     <width>20</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="token_textEdit">
+   <property name="geometry">
+    <rect>
+     <x>394</x>
+     <y>90</y>
+     <width>361</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="symbol_textEdit">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>781</x>
+     <y>90</y>
+     <width>361</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>50</y>
+     <width>20</width>
+     <height>551</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="token_label">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>62</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Tokens :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="symbol_label">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>790</x>
+     <y>65</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Symbol Table :</string>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

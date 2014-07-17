@@ -1,0 +1,11 @@
+char main()
+{
+	int a=5.3;
+	char c='c';
+	if(a<0)
+	{
+		a=0;
+		c='c';
+	}
+	return c;
+}
